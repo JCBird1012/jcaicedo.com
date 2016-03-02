@@ -72,3 +72,76 @@ View my publicly-auditable identity here: https://keybase.io/jcaicedo
 
 ==================================================================
 
+==================================================================
+https://keybase.io/jcaicedo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jcaicedo.us.to
+  * I am jcaicedo (https://keybase.io/jcaicedo) on keybase.
+  * I have a public key with fingerprint 771E 15F0 4A6B EC8F 5A3B  1607 CC0B 4FD8 C137 0233
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012650048c9d7371e594c4f97cd548b3b7c4e7aa58e3d6090c420f00d14d3f39db0a",
+            "fingerprint": "771e15f04a6bec8f5a3b1607cc0b4fd8c1370233",
+            "host": "keybase.io",
+            "key_id": "cc0b4fd8c1370233",
+            "kid": "01012650048c9d7371e594c4f97cd548b3b7c4e7aa58e3d6090c420f00d14d3f39db0a",
+            "uid": "1d7a1f12ad2af8228cf4a55c0619b919",
+            "username": "jcaicedo"
+        },
+        "service": {
+            "hostname": "jcaicedo.us.to",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1456673551,
+    "expire_in": 157680000,
+    "prev": "5f2ad88c87a897c4ee6041dc3b5da7f384235dcdc7620c3b9e318520319649e3",
+    "seqno": 19,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUmtQVGUYXlYhLrHsRKxBBHVsNAV3zv2ylRQRW6O5GqY2UOu5fAcOlz3rOQus
+IMUI5mCU2HBJG2AYYRrISkXDxiHDCZFLWCooiZFkoMY0zQg4FVDfYepP08++P9+8
+7/c8z/c877xV4UtM5oCBMNfVLsZMBPTfFkxbLkXaihFBlXYijmIkByxeIFcCus+d
+o0iIA0ExFMNpCkVJVuQkhmAwQHGkSMocI0oUyQqEwIgkYHieYgEh0SiHiiSOyigq
+YaREyAQnCSiPJCKy4skEmldTPD4oy0AdjJJRkqcFILIyxRMCRqOMKKICKUusiBEM
+ihMEJGapusGA5gReB3ZFhT1YuBft/Qf+f/advyiHSQyPyRjOSzgvszjOijLJU5SI
+0hgncBhnAHWgefg8ANHZIq+IQFKRkkQEdgtgYQzWSPIvhD1ft/uMRF5N9amimgvf
+snw+r+4wuL6dXgNcCAT33zJuQfFIcJKQUQA0XVE9iAODSNGnGLoYSdE0Q1AUlogA
+v1fRgFsxEBRDsyg8xj+gAEpSMoySzrIiy/AsZ0wC0CiJSSIhUBLPyARL4gQliZLI
+0DgKuxwgMJbCUQLjaBIWiJFsh0eF4hw0ymdCUV3J9PC+fA0gJaEV5tilpgCzKSjQ
+bCyZKTTE+s/mpS5E/OkvXLjblFL5wkPc9sHfuvfih3rnSubzSpxLovdcw6/UdgT+
+0JbqfrGypHHbd7fivr4vsiV7zhLvWad+cumtaDvx3j7yerp2rxILi1pbPR498n34
+/qGkZzIeSLN1p2ruM86skaLSb8Pjw7j7OXfS9e1r6idcGd7qysvnN/vLW9H653rz
+ThQ+feKbhorpzDu09bI/0nry4ehTK6s6d6WfPotN7D2y+54+1hWbfaHuLLHw+Tu2
+tmOTvXXXph4ZXdWuaZZtT3QEr0/oUcq9Azvs/i83zU732A6aN1hPBQznuhLTp6IS
+rM9b0kJOjj/Z/WbfioahNfaq04MRx10hN63JwQdWl24ASysq2poPF+EFcegb9SOd
+t639LeWvNRf2XU2qre4LTvslYb/60tF5U9nIoL85OIefnJ/E6yJaQ+trl/9hSZzd
+Y0lZHbusJWhXVOSnHQ8OjCoZzGTyqpr55hg9+2hS+8oaXd9SXfz2+47UD18dFZxf
+rH2K3njk9TvJORv7x5LCzl8pqnXebGw6/m587HApd9Ey8NVnM+oU/+PW+IwPbI6U
+mbHxR18+dzg4zvWRN2aupdC8O54pC+KOqY248+Kmn579dXnOz4B5bHr9oQFb5kz3
+1hsTZ9oCx9s/bnq8YR9pmj9YU9na2DU87Oj6vV/h+Lubqc4bjqHBdTGh5nMRr8yW
+r+g5cGHZrbK/AA==
+=PV1F
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jcaicedo
+
+==================================================================
