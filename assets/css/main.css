@@ -741,10 +741,10 @@
 		-webkit-transform: rotateX(0deg);
 		-ms-transform: rotateX(0deg);
 		transform: rotateX(0deg);
-		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-		transition: opacity 1s ease, transform 1s ease;
+		-moz-transition: opacity 0.75s ease, -moz-transform 0.75s ease;
+		-webkit-transition: opacity 0.75s ease, -webkit-transform 0.75s ease;
+		-ms-transition: opacity 0.75s ease, -ms-transform 0.75s ease;
+		transition: opacity 0.75s ease, transform 0.75s ease;
 	}
 
 		#main .avatar {
