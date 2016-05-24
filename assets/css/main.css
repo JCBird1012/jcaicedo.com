@@ -170,6 +170,10 @@
 			color: #DA291C;
 		}
 
+		a.policy:hover {
+			color: #3498db;
+		}
+
 	strong, b {
 		color: #313f47;
 	}
