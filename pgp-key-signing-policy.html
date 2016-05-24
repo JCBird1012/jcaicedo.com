@@ -13,7 +13,7 @@
 
 	<style>
 
-	pre {
+	div.key {
 		background-color: #F0F0F0;
 		text-transform: none;
 		color: black;
@@ -22,12 +22,23 @@
 		line-height: 1rem;
 		text-align: left;
 		padding: 1rem;
+		width:100%;
 	}
 
 	code {
 		text-transform: none;
 		font-family: monospace;
 	}
+
+	a:hover {
+			color: #3498db;
+	}
+
+	div.info {
+		max-height: 40vh;
+		overflow-y: scroll;
+	}
+
 
 	</style>
 	<body class="is-loading">
@@ -41,10 +52,15 @@
 							<h1>PGP Key Signing Policy</h1>
 						</header>
 						<hr>
+						<div class = "info"> 
 						<h3>I have a single active PGP key. Here is a summary of my personal, active key: </h3>
 
-						<pre>4096-bit RSA public key<br>Creation date: 2015-09-20<br>Short fingerprint: C137 0233<br>Fingerprint:  771E 15F0 4A6B EC8F 5A3B  1607 CC0B 4FD8 C137 0233<br>uid         Jonathan Elias Caicedo &lt;Jonathan@jcaicedo.tk&gt;<br>uid         Jonathan Elias Caicedo &lt;jbirdcaicedo@yahoo.com&gt;<br>uid         Jonathan Elias Caicedo &lt;jbirdcaicedo@gmail.com&gt;<br>uid         Jonathan Elias Caicedo &lt;caicej@rpi.edu&gt;<br>uid         Jonathan Elias Caicedo &lt;jbirdcaicedo@live.com&gt;<br>uid         Jonathan Elias Caicedo &lt;jbirdcaicedo@icloud.com&gt;<br>uid         Jonathan Elias Caicedo &lt;caicedo.jonathan@yahoo.com&gt;<br>uid         [jpeg image of size 2940]</pre>
-						<h3>The MIT PGP Public Key Server and other servers in the SKS Keypool should have the latest version of my personal key. Due to the nature of how the keyservers work, my key most likely has accumlated some cruft (redundant signatures, etc...) so I reccommend importing my key using the additional options <code>import-clean</code> yielding the following command: <br><code> gpg --keyserver-options import-clean --recv-key C1370233</code></h3>
+						<div class = "key">4096-bit RSA public key<br>Creation date: 2015-09-20<br>Short fingerprint: C137 0233<br>Fingerprint:  771E 15F0 4A6B EC8F 5A3B  1607 CC0B 4FD8 C137 0233<br>uid         Jonathan Elias Caicedo &lt;Jonathan@jcaicedo.tk&gt;<br>uid         Jonathan Elias Caicedo &lt;jbirdcaicedo@yahoo.com&gt;<br>uid         Jonathan Elias Caicedo &lt;jbirdcaicedo@gmail.com&gt;<br>uid         Jonathan Elias Caicedo &lt;caicej@rpi.edu&gt;<br>uid         Jonathan Elias Caicedo &lt;jbirdcaicedo@live.com&gt;<br>uid         Jonathan Elias Caicedo &lt;jbirdcaicedo@icloud.com&gt;<br>uid         Jonathan Elias Caicedo &lt;caicedo.jonathan@yahoo.com&gt;<br>uid         [jpeg image of size 2940]</div>
+						<br>
+						<h3>I reccommend that you grab my key from my <a href="https://keybase.io/jcaicedo">Keybase profile</a>. My raw key as hosted by Keybase can be found <a href = "https://keybase.io/jcaicedo/key.asc">here.</a><br> This copy of my key has minimal cruft (no redundant signatures). </h3>
+
+						<h3>The MIT PGP Public Key Server and other servers in the SKS Keypool also should have the latest version of my personal key. However, due to the nature of how the keyservers work, my key most likely has accumlated some cruft (redundant signatures, etc...) so I reccommend importing my key using the additional options <code>import-clean</code> yielding the following command: <br><code> gpg --keyserver-options import-clean --recv-key C1370233</code></h3>
+						</div>
 						<hr/>
 						<footer>
 							<ul class="icons">
