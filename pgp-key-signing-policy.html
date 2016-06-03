@@ -54,7 +54,7 @@
 						</header>
 						<hr>
 						<div class = "info"> 
-						<h3>I have a single active PGP key. Here is a summary of my personal, active key: </h3>
+						<h3>Here is a summary of my personal, active PGP key: </h3>
 
 						<div class = "key">4096-bit RSA public key<br>Creation date: 2015-09-20<br>Short fingerprint: C137 0233<br>Fingerprint:  771E 15F0 4A6B EC8F 5A3B  1607 CC0B 4FD8 C137 0233<br>uid         Jonathan Elias Caicedo &lt;Jonathan@jcaicedo.tk&gt;<br>uid         Jonathan Elias Caicedo &lt;jbirdcaicedo@yahoo.com&gt;<br>uid         Jonathan Elias Caicedo &lt;jbirdcaicedo@gmail.com&gt;<br>uid         Jonathan Elias Caicedo &lt;caicej@rpi.edu&gt;<br>uid         Jonathan Elias Caicedo &lt;jbirdcaicedo@live.com&gt;<br>uid         Jonathan Elias Caicedo &lt;jbirdcaicedo@icloud.com&gt;<br>uid         Jonathan Elias Caicedo &lt;caicedo.jonathan@yahoo.com&gt;<br>uid         [jpeg image of size 2940]</div>
 						<br>
@@ -62,9 +62,17 @@
 
 						<h3>The same version of the above key is hosted on this website <a href = "https://jcaicedo.tk/key.asc">here.</a>
 
-						<h3>The MIT PGP Public Key Server and other servers in the SKS Keypool should also have the latest version of my personal key. However, due to the nature of how the keyservers work, my key most likely has accumlated some cruft (redundant signatures, etc...) so I reccommend importing my key using the additional options <code>import-clean</code> yielding the following command: <br><code> gpg --keyserver-options import-clean --recv-key C1370233</code></h3>
+						<h3>The <a href = "https://pgp.mit.edu">MIT PGP Public Key Server</a> and other servers in the <a href = "https://sks-keyservers.net">SKS Keyserver pool</a> should also have the latest version of my personal key. However, due to the nature of how the keyservers work, my key most likely has accumlated some cruft (redundant signatures, etc...) so I reccommend importing my key using the additional options <code>import-clean</code> yielding the following command: <br><code> gpg --keyserver-options import-clean --recv-key C1370233</code></h3>
+
+						<h2 style = "margin-top:25px;">Signing Procedure</h2>
+
+						<h3>Generally, I will meet with another user in reasonable coniditons, and verify his or her identity against a government-issued photo ID. At the time of signing, the user should present me with a written record of the key fingerprint and UIDs to be signed.
+
+						I'll then signed the signed public key to the keyholder only, to distribute how he or she seems fit. My signature for each UID will be sent to that UID only, confirming that the key owner has access to that UID. I'll also sign UIDs containing photos, assuming the photo reasonably matches the identity of the key owner, and will send it to the primary UID on the provided key.
+
 						</div>
 						<hr/>
+
 						<footer>
 							<ul class="icons">
 								<li><a href="https://jcaicedo.tk" class="fa-home">jcaicedo.tk</a></li>
