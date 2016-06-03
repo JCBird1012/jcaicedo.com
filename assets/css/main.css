@@ -167,6 +167,10 @@
 		}
 
 		a:hover {
+			color: #3498db;
+		}
+
+		a.RPI:hover {
 			color: #DA291C;
 		}
 
