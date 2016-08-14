@@ -596,10 +596,6 @@
 						text-indent: 0;
 					}
 
-					ul.icons li a:hover {
-						border-color: #42dca3;
-					}
-
 			@media screen and (max-width: 480px) {
 
 				ul.icons li a:before {
