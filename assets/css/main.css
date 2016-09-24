@@ -755,6 +755,10 @@
 		transition: opacity 0.75s ease, transform 0.75s ease;
 	}
 
+		#main:hover {
+			opacity: 0.95 !important;
+		}
+
 		#main .avatar {
 			position: relative;
 			display: block;
@@ -864,6 +868,10 @@
 		padding: 1.5em;
 		z-index: 2;
 	}
+
+		#wrapper:hover #main {
+		 opacity: 0.025;
+		}
 
 		#wrapper > * {
 			z-index: 1;
