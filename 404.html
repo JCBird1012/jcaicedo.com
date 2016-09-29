@@ -9,14 +9,6 @@
 
 	<style>
 
-	body {
-		background: url('/images/bg.jpg') no-repeat 50% 50% fixed;
-  	    background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        -webkit-background-size: cover;
-	}
-
 	h1 {
 		text-decoration: underline;
 	}
@@ -58,5 +50,13 @@
 			<h4>It may never exist... Ever.</h4>
 			<h4>Click anywhere.</h4>
 		</center>
+
+		<script>
+			var backgroundNum = Math.floor((Math.random() * 8) + 1);
+			var body = document.querySelector("body");
+			body.style["background"] = 'url("images/bg' + backgroundNum + '.jpg")';
+			body.style["background-size"] = 'cover';
+
+		</script>
 
 	</body>
