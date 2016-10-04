@@ -25,7 +25,7 @@
 						<hr/>
 						<h2>About Me</h2>
 						<h3>I'm an undergraduate student at <a class = "RPI" href = "https://www.rpi.edu">Rensselaer Polytechnic Institute</a> currently studying Computer Science and Information Technology & Web Science.</h3>
-						<a href="/assets/resume.pdf" class="button">Resume</a>
+						<a href="assets/resume.pdf" class="button">Resume</a>
 						<hr/>
 						<footer>
 							<ul class="icons">
@@ -51,6 +51,13 @@
 			</div>
 
 			<script>
+			var backgroundNum = Math.floor((Math.random() * 8) + 1);
+			var body = document.querySelector("body");
+			body.style["background-image"] = 'url(""), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
+			body.style["background-image"] = 'url(""), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
+			body.style["background-image"] = 'url(""), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
+			body.style["background-image"] = 'url(""), linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
+
 				if ('addEventListener' in window) {
 					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
