@@ -755,9 +755,9 @@
 		transition: opacity 0.75s ease, transform 0.75s ease;
 	}
 
-		#main:hover {
+		/*#main:hover {
 			opacity: 0.95 !important;
-		}
+		}*/
 
 		#main .avatar {
 			position: relative;
@@ -869,9 +869,9 @@
 		z-index: 2;
 	}
 
-		#wrapper:hover #main {
+		/*#wrapper:hover #main {
 		 opacity: 0.05;
-		}
+		}*/
 
 		#wrapper > * {
 			z-index: 1;
