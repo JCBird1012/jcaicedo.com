@@ -13,6 +13,15 @@
 </head>
 
 <body class="is-loading">
+	<script async>
+	var backgroundNum = Math.floor((Math.random() * 8) + 1);
+	var body = document.querySelector("body");
+	body.style["background-image"] = 'url(""), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
+	body.style["background-image"] = 'url(""), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
+	body.style["background-image"] = 'url(""), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
+	body.style["background-image"] = 'url(""), linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
+	</script>
+	
 	<!-- Wrapper -->
 	<div id="wrapper">
 		<!-- Main -->
@@ -48,14 +57,7 @@
 		</footer>
 	</div>
 
-	<script>
-		var backgroundNum = Math.floor((Math.random() * 8) + 1);
-		var body = document.querySelector("body");
-		body.style["background-image"] = 'url(""), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
-		body.style["background-image"] = 'url(""), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
-		body.style["background-image"] = 'url(""), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
-		body.style["background-image"] = 'url(""), linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
-
+	<script async>
 		if ('addEventListener' in window) {
 			window.addEventListener('load', function() {
 				document.body.className = document.body.className.replace(/\bis-loading\b/, '');
@@ -78,5 +80,4 @@
 		ga('send', 'pageview');
 	</script>
 </body>
-
 </html>
