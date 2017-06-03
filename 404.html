@@ -1,106 +1,53 @@
 <!DOCTYPE HTML>
 <html>
+	<head>
+		<title>Jonathan Elias Caicedo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
-<head>
-	<title>404 - Jonathan Elias Caicedo</title>
-	<meta http-equiv="x-dns-prefetch-control" content="on">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
-</head>
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
 
-<style>
-	h1 {
-		text-decoration: underline;
-	}
+				<!-- One -->
+					<section class="banner style2 orient-center content-align-center image-position-center fullscreen onload-image-fade-in onload-content-fade-down">
+						<div class="content">
+							<h1><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></h1>
+							<h1>This is a 404.</h1>
+							<p class="major">That probably means what your looking for doesn't exist.</p>
+							<ul class="actions vertical">
+								<li><a href="/" class="button small smooth-scroll-middle">Go back home</i></a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img id="background" alt="Jonathan Caicedo"/>
+							<script>
+								var backgroundNum = Math.floor((Math.random() * 8) + 1);
+								document.getElementById("background").src = "https://jcaicedo.com/images/bg" + backgroundNum + ".jpg";
+							</script>
+						</div>
+					</section>
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5 {
-		color: #ffffff;
-		text-shadow: 2px 2px #000000;
-		font-family: "Lato", sans-serif;
-		margin: 5px;
-		padding: 2.5px;
-	}
+					<!-- Scripts -->
+						<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+						<script src="assets/js/jquery.scrollex.min.js"></script>
+						<script src="assets/js/jquery.scrolly.min.js"></script>
+						<script src="assets/js/skel.min.js"></script>
+						<script src="assets/js/util.js"></script>
+						<script src="assets/js/main.js"></script>
+						<script defer>
+						  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+						  ga('create', 'UA-72112735-1', 'auto');
+						  ga('send', 'pageview');
+						</script>
 
-	h1 {
-		font-size: 5em;
-	}
-
-	h2 {
-		font-size: 4em;
-	}
-
-	h3 {
-		font-size: 3em;
-	}
-
-	h4 {
-		font-size: 2em;
-	}
-
-	h5 {
-		font-size: 1em;
-	}
-
-	body {
-		height: 100%;
-		background-color: #ffffff;
-		background-repeat: repeat, no-repeat, no-repeat;
-		background-size: 100px 100px, cover, cover;
-		background-position: top left, center center, bottom center;
-		background-attachment: fixed, fixed, fixed;
-		overflow-y: hidden;
-	}
-
-	body:before {
-		content: '';
-		display: block;
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: inherit;
-		opacity: 0;
-		z-index: 1;
-		background-color: #ffffff;
-		background-repeat: repeat, no-repeat;
-		background-size: 100px 100px, cover;
-		background-position: top left, center center;
-	}
-
-	.travolta {
-		position: absolute;
-		bottom: 0;
-		left: 50%;
-		width: auto;
-		margin-left: -250px;
-		/* Half the width */
-		z-index: -1;
-	}
-</style>
-
-<body onclick="window.location.href='/';" style="cursor:pointer;">
-	<center>
-		<h1>That's unfortunate. You've found a 404.<h1>
-			<h2>What you're looking for isn't here.</h2>
-			<h3>It's possible that it never existed.</h3>
-			<h4>It may never exist... Ever.</h4>
-			<h4>Click anywhere.</h4>
-		</center>
-
-		<img class = "travolta" src = "images/travolta.gif">
-
-		<script>
-		var backgroundNum = Math.floor((Math.random() * 8) + 1);
-		var body = document.querySelector("body");
-		body.style["background-image"] = 'url(""), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
-		body.style["background-image"] = 'url(""), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
-		body.style["background-image"] = 'url(""), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
-		body.style["background-image"] = 'url(""), linear-gradient(60deg, rgba(255, 165, 150, 0.25) 5%, rgba(0, 228, 255, 0.25)), url("images/bg' + backgroundNum + '.jpg")';
-
-		</script>
-
+			</div>
 	</body>
+</html>
