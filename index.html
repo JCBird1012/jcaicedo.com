@@ -22,6 +22,15 @@
 			preloadBackground.href = "https://jcaicedo.com/images/bg" + backgroundNum + ".jpg";
 			preloadBackground.as = "image";
 			document.getElementsByTagName('head')[0].appendChild(preloadBackground);
+
+			if (!/Mobi/.test(navigator.userAgent)) {
+				console.log("TEST");
+				var preloadResume = document.createElement('link');
+				preloadResume.rel = "preload";
+				preloadResume.href = "https://jcaicedo.com/assets/resume.pdf"
+				preloadResume.as = "image";
+				document.getElementsByTagName('head')[0].appendChild(preloadResume);
+			}
 		</script>
 	</head>
 	<body>
@@ -265,7 +274,6 @@
 							</script>
 						</div>
 					</section>
-
 
 				<!--
 					<section class="wrapper style1 align-center">
