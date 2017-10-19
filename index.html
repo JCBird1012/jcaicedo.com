@@ -4,15 +4,15 @@
 		<title>Jonathan Elias Caicedo</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link ref="preload" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-		<link ref="preload" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i" rel="stylesheet">
-		<link ref="preload" href="https://code.jquery.com/jquery-3.2.1.min.js" />
-		<link ref="preload" href="assets/js/jquery.scrollex.min.js" />
-		<link ref="preload" href="assets/js/jquery.scrolly.min.js" />
-		<link ref="preload" href="assets/js/skel.min.js" />
-		<link ref="assets/js/util.js" />
-		<link ref="assets/js/main.js" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link ref="preload" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" as="font">
+		<link ref="preload" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i" rel="stylesheet" as="font">
+		<link ref="preload" href="https://code.jquery.com/jquery-3.2.1.min.js"  as="script">
+		<link ref="preload" href="assets/js/jquery.scrollex.min.js" as="script">
+		<link ref="preload" href="assets/js/jquery.scrolly.min.js" as="script">
+		<link ref="preload" href="assets/js/skel.min.js" as="script">
+		<link ref="assets/js/util.js" as="script">
+		<link ref="assets/js/main.js" as="script">
+		<link rel="stylesheet" href="assets/css/main.css" as="stylesheet">
 		<link rel="preload" href="images/RPI.jpg" as="image">
 		<link rel="preload" href="https://jcaicedo.com/images/avatar.jpg" as="image">
 		<script async>
@@ -28,7 +28,7 @@
 				var preloadResume = document.createElement('link');
 				preloadResume.rel = "preload";
 				preloadResume.href = "https://jcaicedo.com/assets/resume.pdf"
-				preloadResume.as = "image";
+				preloadResume.as = "object";
 				document.getElementsByTagName('head')[0].appendChild(preloadResume);
 			}
 		</script>
