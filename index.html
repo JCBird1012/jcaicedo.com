@@ -19,7 +19,7 @@
 			var backgroundNum = Math.floor((Math.random() * 8) + 1);
 			var preloadBackground = document.createElement('link');
 			preloadBackground.rel = "preload";
-			preloadBackground.href = "https://jcaicedo.com/images/bg" + backgroundNum + ".jpg";
+			preloadBackground.href = "images/bg" + backgroundNum + ".jpg";
 			preloadBackground.as = "image";
 			document.getElementsByTagName('head')[0].appendChild(preloadBackground);
 		</script>
@@ -32,7 +32,7 @@
 				<!-- One -->
 					<section class="banner style2 orient-center content-align-center image-position-center fullscreen onload-image-fade-in onload-content-fade-down">
 						<div class="content">
-							<img class="avatar" src="https://jcaicedo.com/images/avatar.jpg" height="150" width="150">
+							<img class="avatar" src="images/avatar.jpg" height="150" width="150">
 							<h1>Hi, I'm Jonathan</h1>
 							<p class="major">I do things with computers sometimes.</p>
 							<ul class="actions vertical">
@@ -42,7 +42,7 @@
 						<div class="image">
 							<img id="background" alt="Jonathan Caicedo"/>
 							<script async>
-								document.getElementById("background").src = "https://jcaicedo.com/images/bg" + backgroundNum + ".jpg";
+								document.getElementById("background").src = "images/bg" + backgroundNum + ".jpg";
 							</script>
 						</div>
 					</section>
@@ -252,8 +252,8 @@
 						<div class="content">
 							<h3>In case you wanted all of that in one convenient PDF, here's my résumé...</h3>
 							<script async>
-								var desktopHTML = "<object type=\"application\/pdf\" width=\"100%\" height=\"1150\" data=\"https:\/\/jcaicedo.com\/assets\/resume.pdf\"><a href=\"https:\/\/jcaicedo.com\/assets\/resume.pdf\" class=\"button\">Résumé<\/a><\/object>"
-								var mobileHTML = "<a href=\"https:\/\/jcaicedo.com\/assets\/resume.pdf\" class=\"button\">Résumé<\/a><br><br>"
+								var desktopHTML = "<object type=\"application\/pdf\" width=\"100%\" height=\"1150\" data=\"assets\/resume.pdf\"><a href=\"assets\/resume.pdf\" class=\"button\">Résumé<\/a><\/object>"
+								var mobileHTML = "<a href=\"assets\/resume.pdf\" class=\"button\">Résumé<\/a><br><br>"
 
 								if (/Mobi/.test(navigator.userAgent)) {
 									document.getElementById("resume").childNodes[1].innerHTML = document.getElementById("resume").childNodes[1].innerHTML + mobileHTML;
