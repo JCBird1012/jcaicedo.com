@@ -16,10 +16,10 @@
 		<link rel="preload" href="images/RPI.jpg" as="image">
 		<link rel="preload" href="https://secure.gravatar.com/avatar/3269d0c66772a4a77bfcbbcc8d8afa97?s=150" as="image">
 		<script async>
-			var backgroundNum = Math.floor((Math.random() * 8) + 1);
+			var backgroundNum = Math.floor((Math.random() * 11) + 1);
 			var preloadBackground = document.createElement('link');
 			preloadBackground.rel = "preload";
-			preloadBackground.href = "images/bg" + backgroundNum + ".jpg";
+			preloadBackground.href = "images/backgrounds/bg" + backgroundNum + ".jpg";
 			preloadBackground.as = "image";
 			document.getElementsByTagName('head')[0].appendChild(preloadBackground);
 		</script>
@@ -42,7 +42,7 @@
 						<div class="image">
 							<img id="background" alt="Jonathan Caicedo"/>
 							<script async>
-								document.getElementById("background").src = "images/bg" + backgroundNum + ".jpg";
+								document.getElementById("background").src = "images/backgrounds/bg" + backgroundNum + ".jpg";
 							</script>
 						</div>
 					</section>
