@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<link href="favicon.ico" rel="shortcut icon">
 		<link ref="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" as="font">
 		<link ref="preload" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i" rel="stylesheet" as="font">
 		<link ref="preload" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"  as="script">
@@ -14,13 +15,13 @@
 		<link ref="assets/js/util.js" as="script">
 		<link ref="assets/js/main.js" as="script">
 		<link rel="stylesheet" href="assets/css/main.css" as="stylesheet">
-		<link rel="preload" href="https://ce85ca7fc.cloudimg.io/cdn/n/n/https://jcaicedo.com/images/RPI.jpg" as="image">
+		<link rel="preload" href="https://jcaicedo.tiny.pictures/main/images/RPI.jpg" as="image">
 		<link rel="preload" href="https://secure.gravatar.com/avatar/3269d0c66772a4a77bfcbbcc8d8afa97?s=200" as="image">
 		<script async>
 			var backgroundNum = Math.floor((Math.random() * 14) + 1);
 			var preloadBackground = document.createElement('link');
 			preloadBackground.rel = "preload";
-			preloadBackground.href = "https://ce85ca7fc.cloudimg.io/cdn/n/n/https://jcaicedo.com/images/backgrounds/bg" + backgroundNum + ".jpg";
+			preloadBackground.href = "https://jcaicedo.tiny.pictures/main/images/backgrounds/bg" + backgroundNum + ".jpg";
 			preloadBackground.as = "image";
 			document.getElementsByTagName('head')[0].appendChild(preloadBackground);
 		</script>
@@ -43,7 +44,7 @@
 						<div class="image">
 							<img id="background" alt="Jonathan Caicedo"/>
 							<script async>
-								document.getElementById("background").src = "https://ce85ca7fc.cloudimg.io/cdn/n/n/https://jcaicedo.com/images/backgrounds/bg" + backgroundNum + ".jpg";
+								document.getElementById("background").src = "https://jcaicedo.tiny.pictures/main/images/backgrounds/bg" + backgroundNum + ".jpg";
 							</script>
 						</div>
 					</section>
@@ -57,7 +58,7 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="https://ce85ca7fc.cloudimg.io/cdn/n/n/https://jcaicedo.com/images/RPI.jpg" alt="RPI Campus"/>
+							<img src="https://jcaicedo.tiny.pictures/main/images/RPI.jpg" alt="RPI Campus"/>
 						</div>
 					</section>
 
